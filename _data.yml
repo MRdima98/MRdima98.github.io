@@ -1,0 +1,16 @@
+lang: en
+
+home:
+  welcome: I do silly projects and break them down.
+
+menu_links: []
+extra_head: []
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: Dumitru Frunza
+  description: I do silly projects and break them down.
+  title: "=title"
+  image: "=image"
+  twitter: "@username"
+  lang: en
