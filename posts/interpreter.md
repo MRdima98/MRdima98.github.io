@@ -10,6 +10,8 @@ tokens undergo syntax analysis then they are either fed to a VM or translated to
 Fascinating, yet I felt that my knowledge is superficial, I couldn't implement a compiler 
 tomorrow if I wanted. 
 
+<!--more-->
+
 Therefore I ran for help, specifically I read "Writing an interpreter in Go". 
 Amazing book that teaches you step by step how to build an interpreter and at the 
 same time taught me a bunch about Golang it self.
