@@ -3,12 +3,12 @@ title: Writing a intepreter from scratch
 ---
 Curiosity is a amazing gift when you can freely explore the subjects pertinent to your interest.
 
-This summer I wondered how actually do programming languages work. 
+This summer I wondered how actually do programming languages work.
 Luckily in college I learned a rough idea: code enter as string, gets chopped into tokens, 
 tokens undergo syntax analysis then they are either fed to a VM or translated to machine code.
 
-Fascinating, yet I felt that my knowledge is superficial, I couldn't implement a compiler 
-tomorrow if I wanted. 
+Fascinating, yet I felt that my knowledge is superficial, I couldn't implement a compiler
+tomorrow if I wanted.
 
 <!--more-->
 
@@ -36,9 +36,9 @@ It is a great idea to parse it into a more convenient form, like an array of obj
 The input is read char by char, until one valid token is found, then this token gets add to an 
 array which contains a Type token. This type saves both the name of the token as well 
 as the literal representation of the string. Say we want to parse an "if" string, the 
-correct token to represent it should be type:'IF', literal: 'if'. Of course in this case looks silly 
+correct token to represent it should be `Token{type:'IF', literal: 'if'}`. Of course in this case looks silly 
 to save twice an if, but suppose we want to save an identifier (like a variable) 'value' the 
-token would be: type: 'IDENT', literal:'value'.
+	token would be: `Token{type: 'IDENT', literal:'value'}`.
 
 By the end of this process we own an array of tokens.
 This guarantees us that the input contains valid syntax.
@@ -386,15 +386,16 @@ the object and perform each and every operation needed.
 ...
 ```
 
-We are up and running! As mentioned in the begging you can check it out for 
+We are up and running! As mentioned in the begging you can check it out for
 yourself and play around.
-The website that allows you to play with language simply takes the input and 
+The website that allows you to play with language simply takes the input and
 runs the program like an executable.
 
 ## Closing thoughts
+
 This a fast and quicker than I though project.
-I learned a bunch about interpreter, cleared some of my personal misconceptions and worked in a 
-medium sized Go project. 
+I learned a bunch about interpreter, cleared some of my personal misconceptions and worked in a
+medium sized Go project.
 I highly suggest to try out at least the book.
 
 Hope you enjoyed reading as much as I enjoyed writing it.
