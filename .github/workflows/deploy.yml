@@ -1,9 +1,6 @@
 name: Publish on GitHub Pages
 
 on:
-  push:
-    tags:
-      - '*'
   workflow_dispatch:
 
 permissions:
