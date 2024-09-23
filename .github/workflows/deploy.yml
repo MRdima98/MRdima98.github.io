@@ -1,12 +1,10 @@
 name: Publish on GitHub Pages
 
 on:
-  workflow_dispatch:
-  inputs:
+  push:
     tags:
-      description: 'Publish article'
-      required: true
-      type: string
+      - '*'
+  
 
 permissions:
   contents: read
