@@ -6,12 +6,15 @@ import "npm:prismjs@1.29.0/components/prism-go.js";
 
 const site = lume();
 
-site.use(blog());
-site.use(prism({
-  theme: {
-    name: "funky", // The theme name to download
-    path: "/css/code_theme.css", // The destination filename
-  },
-}));
+site.use(blog())
+  .use(prism({
+    theme: {
+      name: "funky", // The theme name to download
+      path: "/css/code_theme.css", // The destination filename
+    },
+  }));
+
+site.copy("/css/code_theme.css"); // Copy the css file to dest.
+
 
 export default site;
