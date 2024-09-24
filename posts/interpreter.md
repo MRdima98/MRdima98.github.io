@@ -1,5 +1,6 @@
 ---
 title: Writing a intepreter from scratch
+date: 2024-09-24
 ---
 Curiosity is an amazing gift when you can freely explore the subjects pertinent to your interest.
 
