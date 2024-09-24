@@ -1,29 +1,28 @@
 ---
 title: Writing a intepreter from scratch
 ---
-Curiosity is a amazing gift when you can freely explore the subjects pertinent to your interest.
+Curiosity is an amazing gift when you can freely explore the subjects pertinent to your interest.
 
-This summer I wondered how actually do programming languages work.
-Luckily in college I learned a rough idea: code enter as string, gets chopped into tokens, 
+This summer I wondered how do programming languages actually work.
+Luckily, in college, I got a rough idea: code enters as string, gets chopped into tokens, 
 tokens undergo syntax analysis then they are either fed to a VM or translated to machine code.
 
-Fascinating, yet I felt that my knowledge is superficial, I couldn't implement a compiler
-tomorrow if I wanted.
+Although fascinating, I realized my knowledge was superficial; I couldn't implement a compiler even if I tried.
 
 <!--more-->
 
-Therefore I ran for help, specifically I read "Writing an interpreter in Go". 
+Therefore I sought help, specifically I read "Writing an interpreter in Go". 
 Amazing book that teaches you step by step how to build an interpreter and at the 
-same time taught me a bunch about Golang it self.
+same time taught me a bunch about Golang itself.
 
 By the last chapter I had a working functional programming language, my curiosity 
-should've been satisfied. Unfortunately it wasn't the case. I was not impressed by 
-my self, reading and typing some code from a book won't translate into actual knowledge on 
-the subject, one has to get his hands dirty.
+should've been satisfied. Unfortunately it wasn't the case. I was not impressed with 
+myself, reading and typing some code from a book won't translate into actual knowledge on 
+the subject, you have to your his hands dirty.
 
 I then embarked on a journey to expand the language by adding class support and OOP.
 You can test the language at [this website](https://monkey.mrdima98.dev), see the code 
-[on my git repository](https://github.com/MRdima98/interpreter) and follow the technical breakdown on my [blog](https://blog.mrdima98.dev) or my [youtube video](asdf).
+[on my git repository](https://github.com/MRdima98/interpreter) and follow the technical breakdown on my [blog](https://blog.mrdima98.dev) or my [youtube video](https://www.youtube.com/watch?v=RWEmozaBVjA).
 
 
 ## Back to school
